@@ -35,3 +35,17 @@ const myfunction= function(){
 }
 
 console.log(typeof anotherId);
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) , Heap (Non-primitive)
+
+let myName = "sakshi"
+
+let anothername = myName
+anothername = "jaiswal"
+
+console.log(myName);
+console.log(anothername);
+
